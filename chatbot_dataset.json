@@ -1,0 +1,491 @@
+{
+  "intents": [
+    {
+      "class":"1",
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "class":"2",
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "class":"3",
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "class":"4",
+      "tag": "blockchain basics",
+      "patterns": [
+        "What is blockchain?",
+        "Define blockchain?",
+        "Can you tell me something about blockchain.",
+        "Blockchain basics",
+        "blockchain",
+        "blockchain is distributed"
+      ],
+      "responses": [
+       "blockchain is a distributed database of records of all transactions and digital events that have been executed and shared among participating parties. Each transaction was verified by the majority of participants of the system."
+      ]
+    },
+    {
+      "class":"4",
+      "tag": "blockchain types",
+      "patterns": [
+        "blockchain types",
+        "what are types of blockchain"
+      ],
+      "responses": [
+        "There are two types of blockchain \nprivate blockchain\npublic blockchain"
+      ]
+    },
+    {
+      "class":"4",
+      "tag": "types detail",
+      "patterns": [
+        "public blockchain",
+        "private blockchain",
+        "difference between public and private blockchain"
+      ],
+      "responses": [
+        "public blockchain is where anyone with a qualifying computer can participate as a node, whereas in a private blockchain the right of admission is reserved. Both types of blockchain have their own use-cases. By far the public blockchain is the most popular type of blockchain."
+      ]
+    },
+    {
+      "class":"4",
+      "tag": "block",
+      "patterns": [
+        "block",
+        "block in blockchain"
+      ],
+      "responses": [
+        "A block stores the transactions as they happened with the mutual consensus of the nodes (peers), a transaction once accepted into a block becomes immutable."
+      ]
+    },
+    {
+      "class":"5",
+      "tag": "inovice",
+      "patterns": [
+        "invoice",
+        "what is invoice"
+      ],
+      "responses": [
+        "An invoice as we know it today is a document containing a record of a transaction between a buyer and a seller."
+      ]
+    },{
+      "class":"5",
+      "tag": "e-inovice",
+      "patterns": [
+        "e-invoice",
+        "electric invoice",
+        "digital invoice"
+      ],
+      "responses": [
+        "e-Invoice, electronic invoice, or digital invoice are the same things. These are the invoices that are generated through a computerized invoice processing system with an effective database."
+      ]
+    },
+    {
+      "class":"6",
+      "tag": "DeFi understanding",
+      "patterns": [
+        "defi",
+        "what do you mean by defi",
+        "decentralized finanace"
+      ],
+      "responses": [
+        "DeFi is an abbreviation for Decentralized Finance. It is a mechanism for making financial products available on a decentralized blockchain network that is open to the public."
+      ]
+    },
+    {
+      "class":"6",
+      "tag": "DeFi component",
+      "patterns": [
+        "defi components",
+        "components of defi",
+        "decentralized finanace components"
+      ],
+      "responses": [
+        "Components of DeFi\n Simply speaking DeFi consists of\nThe Engine - Blockchain\nThe Assets\nThe Protocol\nThe Application\nTechnically, the DeFi stack consists of four layers. \nSettlement Layer\nProtocol Layer\nApplication Layer\nAggregation Layer"
+      ]
+    },
+    {
+      "class":"7",
+      "tag": "Invoice Financing",
+      "patterns": [
+        "Invoice Financing"
+      ],
+      "responses": [
+        "Invoice financing allows companies to borrow money against sums owed to them by consumers."
+      ]
+    },
+    {
+      "class":"7",
+      "tag": "Invoice Factoring",
+      "patterns": [
+        "Invoice Factoring",
+        "difference between invoice factoring and invoice financing"
+      ],
+      "responses": [
+        "Invoice factoring is another type of invoice finance mechanism, the major difference between invoice financing and factoring can be described as follows. In invoice financing, the customer himself collects the due invoice amount from their vendors and paybacks to the lender the borrowed amount plus markup/service charges as per agreement. In invoice factoring, the lender collects the due amount from the customers of the borrower and pays the remaining amount (if any) after deducting the lent amount as well as the markup/service charges."
+      ]
+    },
+    {
+      "class":"7",
+      "tag": "DeFi Invoice Financing",
+      "patterns": [
+        "DeFi Invoice Financing"
+      ],
+      "responses": [
+        "DeFi provides an ideal use case in the form of Invoice Financing.  DeFi offers an independent mechanism for borrowing and lending. DeFi Financing doesn’t require 3rd party to execute the financing transactions.\nFinancing can be done in two ways.\nPeer To Peer Financing\nIn this scenario individual, or organization can get the finance directly from a peer.\nPool Based Financing\nIn this method, the lenders provide funds (liquidity) to a pool that offers the financing."
+      ]
+    },
+    {
+      "class":"7",
+      "tag": "Peer To Peer Financing",
+      "patterns": [
+        "Peer To Peer Financing",
+        "defi Peer To Peer Financing"
+
+      ],
+      "responses": [
+        "In this scenario individual, or organization can get the finance directly from a peer without any third party involved."
+      ]
+    },
+    {
+      "class":"7",
+      "tag": "Pool Based Financing",
+      "patterns": [
+        "Pool Based Financing",
+        "defi Pool Based Financing"
+      ],
+      "responses": [
+        "In this method, the lenders provide funds (liquidity) to a pool that offers the financing."
+      ]
+    },
+    {
+      "class":"7",
+      "tag": "Benefits Of DeFi Invoice Financing",
+      "patterns": [
+        "Benefits of defi",
+        "Benefits Of DeFi Invoice Financing",
+        "advantages Of DeFi Invoice Financing"
+      ],
+      "responses": [
+        "In DeFi the financing is much easier than the traditional financial institutions. It is the most straightforward method of financing."
+      ]
+    },
+    {
+      "class":"8",
+      "tag": "Auditability",
+      "patterns": [
+        "auditability",
+        "what features of auditability offers or provide by invoicemate",
+        "what features of auditability offers or provide by blockchain"
+      ],
+      "responses": [
+        "The blockchain ensures transparency and trust at all levels that make it always verifiable and auditable. As all the relevant information is always available for all the concerned parties, so the possibility of discrepancy is already eliminated."
+      ]
+    },
+    {
+      "class":"8",
+      "tag": "Transparency",
+      "patterns": [
+        "Transparency",
+        "what do you mean by Transparency",
+        "How blockchain ensures transparency?"
+
+      ],
+      "responses": [
+        "One of the most prominent features of blockchain is the enablement of the trust layer. Blockchain is a decentralized network of independent nodes. All the operations happening on the blockchain are visible to all the concerned people without compromising the privacy and security of data. So all the concerned parties of a transaction can have independent access to the related record."
+      ]
+    },
+    {
+      "class":"9",
+      "tag": "Challenges Of Traditional Invoice Automation",
+      "patterns": [
+        "Challenges Of Traditional Invoice Automation",
+        "Challenges Of Manual Invoice Processing",
+        "Challenges of Invoice processing",
+        "Challenges"
+      ],
+      "responses": [
+        "challenges of traditional invoice automation are following \nError-Prone Process\nWorkload Intensive Process\nUnnecessary Costs of Process\nDelays In Process\nHampered Productivity\nLost/Missing/Duplicate/Fake Invoices\nHigher Process Cost\nTransparency/Trust Issues\nTracking/Monitoring Issues\nReconciliation Issues"
+      ]
+    }
+    ,
+    {
+      "class":"10",
+      "tag": "Fintech in our lives",
+      "patterns": [
+        "Fintech",
+        "Financial Technology",
+        "fintech is improve by blockchain",
+        "blockchain effect the finance technology or fintech",
+        "fintech in blockchain",
+        "finance technology effect banking and payment",
+        "what do you mean by Financial Technology or Fintech",
+        "Fintech In Our Lives",
+        "Financial Technology in our lives"
+      ],
+      "responses": [
+        "Fintech is the usage of technology to facilitate financial operations, products, and services. Fintech provides both backend and frontend (consumer-based) solutions.Following are the examples of fintech solutions that can easily be spotted around in our daily life.\n Bankin\n Payment\n Cryptocurrency & DeF\n Investments & Trading\n Lendings"
+      ]
+    },
+    {
+      "class":"11",
+      "tag": "Features Of A Perfect Invoice Management System",
+      "patterns": [
+        "Features Of A Perfect Invoice Management System",
+        "Benefits Of A Perfect Invoice Management System"
+      ],
+      "responses": [
+        "Let’s take a look at eight features of an ideal invoice management system.Most of the scenarios discussed here are assumed to be involving credit invoices.\n Onboa\n Wor\n Capt\n Data Manag\n Integr\n Visibility & Trackab\n Cross-Organizational Collabor\n Payment Processing"
+      ]
+    },
+    {
+      "class":"11",
+      "tag": "Onboarding",
+      "patterns": [
+        "Onboarding",
+        "what do you mean by Onboarding"
+      ],
+      "responses": [
+        "Onboarding sometimes called vendor onboarding or profiling involves creating the profile and accounts of the business vendors and customers."
+      ]
+    },
+    {
+      "class":"11",
+      "tag": "workflow",
+      "patterns": [
+        "workflow",
+        "what is the workflow of your company",
+        "review",
+        "approve"
+      ],
+      "responses": [
+        "Workflow is an essential component of a good invoice management system. As different organizations have different workflow mechanisms, so implementing a default model is not a good approach. There can be multiple people involved in recording, processing, approval, verification, and clearance processes and the number can vary from an organization to another. So a good invoice management system should be capable of allowing customization of workflow."
+      ]
+    },
+    {
+      "class":"11",
+      "tag": "Integration",
+      "patterns": [
+        "sap",
+        "oracle",
+        "existing system",
+        "other system",
+        "can I integrate invoicemate with existing system or sap or oracle or other system."
+      ],
+      "responses": [
+        "As a majority of the invoice management systems besides being a system on their own also work like an addon or a plugin to the existing legacy accounting system or ERP, so it becomes very critical the way they interact with these systems. There needs to be bi-directional communication with the legacy systems so that data can be sent and received as per requirement. This integration is very critical to ensure the automated processing of an invoice."
+      ]
+    },
+    {
+      "class":"11",
+      "tag": "payment process",
+      "patterns": [
+        "payment process",
+        "payment process for invoicemate"
+      ],
+      "responses": [
+        "InvoiceMate offers a comprehensive invoice management suite that offers all of the below features.\n Bank account\nPayment Wallets\nCards\nCrypto Wallets"
+      ]
+    },
+    {
+      "class":"12",
+      "tag": "Blockchain & The Fintech",
+      "patterns": [
+        "Makes Blockchain A Preferred Choice For Fintech",
+        "blockchain and fintech"
+      ],
+      "responses": [
+        "The mechanism of blockchain in its original form brings some inherent characteristics that make blockchain a dependable technology for financial technology (Fintech). These characteristics include:\n Decentralizatio\n Immutabilit\n Spee\n Securit\n Trustabilt\n Transparenc\n Cost-Effectiveness"
+      ]
+    },
+    {
+      "class":"12",
+      "tag": "Decentralization",
+      "patterns": [
+        "Decentralization"
+      ],
+      "responses": [
+        "A blockchain is a peer-to-peer network with each node having the same status as that of the other node on the network and having all the data of blockchain on its own."
+      ]
+    },
+    {
+      "class":"12",
+      "tag": "Immutability",
+      "patterns": [
+        "Immutability",
+        "blockchain Immutability",
+        "Immutability invoicemate"
+      ],
+      "responses": [
+        "An entry once recorded in a block and the block is accepted by the blockchain to be valid, cannot be altered, deleted, or updated."
+      ]
+    },
+    {
+      "class":"12",
+      "tag": "security",
+      "patterns": [
+        "security",
+        "how blockchain is more secure",
+        "secure"
+      ],
+      "responses": [
+        "In a blockchain, security is achieved through chronological order, immutability, and encryption of the data (transaction). The data on the blockchain can neither be altered/updated nor be removed/deleted."
+      ]
+    },
+    {
+      "class":"12",
+      "tag": "speed",
+      "patterns": [
+        "speed",
+        "quick",
+        "fast",
+        "blockchain speed"
+        
+      ],
+      "responses": [
+        "By removing the requirement of an intermediary or regulatory third party, transactions irrespective of the amount and volume can be processed in real-time which is not possible in the conventional fintech mechanism."
+      ]
+    },
+    {
+      "class":"12",
+      "tag": "Trustability",
+      "patterns": [
+        "Trustability",
+        "validation",
+        "blockchain validation"
+      ],
+      "responses": [
+        "By removing the requirement of an intermediary or regulatory third party, transactions irrespective of the amount and volume can be processed in real-time which is not possible in the conventional fintech mechanism."
+      ]
+    },
+    {
+      "class":"12",
+      "tag": "Cost-Effectiveness",
+      "patterns": [
+        "Cost-Effectiveness",
+        "cost",
+        "can i cut the cost with invoicemate",
+        "monetory benefits of invoicemate",
+        "reduce operational cost"
+      ],
+      "responses": [
+        "The absence of a 3rd party to control, authorize and facilitate the transactions in the blockchain cuts the transaction processing charges drastically. It also allows the transactions of small amounts to happen over the internet which is not possible in conventional fintech solutions. It also offers a large amount to be transacted at a very nominal cost."
+      ]
+    },
+    {
+      "class":"13",
+      "tag": "Accounts Payable and Accounts Receivable",
+      "patterns": [
+        "Accounts Payable",
+        "Accounts Payable and Accounts Receivable",
+        "AP and AR"
+      ],
+      "responses": [
+        "The absence of a 3rd party to control, authorize and facilitate the transactions in the blockchain cuts the transaction processing charges drastically. It also allows the transactions of small amounts to happen over the internet which is not possible in conventional fintech solutions. It also offers a large amount to be transacted at a very nominal cost."
+      ]
+    },
+    {
+      "class":"13",
+      "tag": "Accounts Receivable",
+      "patterns": [
+        "Accounts Receivable",
+        "ar"
+      ],
+      "responses": [
+        "The amount of money due to a company for goods or services delivered or utilized but not yet paid for by consumers is known as accounts receivable (AR)."
+      ]
+    },
+    {
+      "class":"13",
+      "tag": "Advantages of Accounts Receivable",
+      "patterns": [
+        "Advantages of Accounts Receivable",
+        "Benefits of Accounts Receivable"
+      ],
+      "responses": [
+        "Accounts receivable is a critical component of a company’s fundamental analysis. As a current asset, accounts receivable measures a company’s liquidity, or its ability to meet short-term obligations without generating new cash flows."
+      ]
+    },
+    {
+      "class":"14",
+      "tag": "benefits of invoicemate",
+      "patterns": [
+        "advantages of invoicemate",
+        "benefits of inovoicemate",
+        "features of invoicemate",
+        "what services are you providing",
+        "why we use invoicemate",
+        "which technology or tech is used by inovicemate",
+        "invoicemate is secure",
+        "invoicemate use blockchain",
+        "invoicemate use ai",
+        "why we trust on invoicemate"
+      ],
+      "responses": [
+        "InvoiceMate is an end-to-end solution for AP automation with function specific features that provide efficient results, all while saving money & resources.\nInvoiceMate uses emerging technologies like blockchain & AI to maximize the power of data, people and processes.ces.\nInvoiceMate is a Bridge Connecting Conventional Businesses with Crypto Businesses"
+      ]
+    },
+    {
+      "class":"15",
+      "tag": "name",
+      "patterns": [
+        "what is your name",
+        "name",
+        "tell me your name"
+      ],
+      "responses": [
+        "Matebot"
+      ]
+    },
+    {
+      "class":"16",
+      "tag": "owner",
+      "patterns": [
+        "who is your owner",
+        "who is your creator",
+        "creator",
+        "owner"
+      ],
+      "responses": [
+        "Invoicemate"
+      ]
+    },
+    {
+      "class":"15",
+      "tag": "fine",
+      "patterns": [
+        "how are you?",
+        "how is it going",
+        "how is going on"
+      ],
+      "responses": [
+        "fine, How can I help you"
+      ]
+    }  
+  ]
+}

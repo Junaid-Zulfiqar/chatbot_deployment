@@ -164,8 +164,10 @@
       "class":"7",
       "tag": "Peer To Peer Financing",
       "patterns": [
+        "peer to peer",
         "Peer To Peer Financing",
-        "defi Peer To Peer Financing"
+        "defi Peer To Peer Financing",
+        "what is peer to peer network"
 
       ],
       "responses": [
@@ -212,6 +214,7 @@
       "tag": "Transparency",
       "patterns": [
         "Transparency",
+        "How can invoicemate offers transparency",
         "what do you mean by Transparency",
         "How blockchain ensures transparency?"
 
@@ -476,7 +479,7 @@
       ]
     },
     {
-      "class":"15",
+      "class":"17",
       "tag": "fine",
       "patterns": [
         "how are you?",
@@ -485,6 +488,17 @@
       ],
       "responses": [
         "fine, How can I help you"
+      ]
+    },
+    {
+      "class":"18",
+      "tag": "integrity",
+      "patterns": [
+        "how invoicemate provides integrity in our bussiness",
+        "integrity"
+      ],
+      "responses": [
+        "InvoiceMate introduces outstanding integrity in invoice operations through the use of Blockchain, thereby strengthening the whole invoice processing."
       ]
     }  
   ]
